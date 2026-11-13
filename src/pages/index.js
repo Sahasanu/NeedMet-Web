@@ -8,6 +8,7 @@ import LogIn from "./auth/LogIn.jsx";
 import SignUp from "./auth/SignUp.jsx";
 import AddListing from "./AddListing.jsx";
 import AboutPage from "./About/AboutPage.jsx";
+import ReviewsFeedbackPage from "./Reviews/ReviewsFeedbackPage.jsx";
 import { ArticlesPage, ArticleDetails } from "./Articles";
 
 export {
@@ -21,6 +22,7 @@ export {
     SignUp, 
     AddListing,
     AboutPage,
+    ReviewsFeedbackPage,
     ArticlesPage,
     ArticleDetails
 }

@@ -55,8 +55,9 @@ export { default as AllCategoryLoader } from './Loader/AllCategoryLoader.jsx';
 export { default as ListingDetailsLoader } from './Loader/ListingDetailsLoader.jsx';
 export { default as SearchPageLoader } from './Loader/SearchPageLoader.jsx';
 
-// ── Testimonials & QR ──
+// ── Testimonials & Reviews ──
 export { default as TestimonialCard } from './Testimonial/TestimonialCard.jsx';
+export { ReviewFormModal, StarRatingInput } from './ReviewModal';
 export { default as PosterTemplate } from './QR/PosterTemplate.jsx';
 export { default as QrPosterModal } from './QR/QrPosterModal.jsx';
 

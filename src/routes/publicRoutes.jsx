@@ -8,6 +8,7 @@ import {
   SearchPage,
   ArticlesPage,
   ArticleDetails,
+  ReviewsFeedbackPage,
 } from "../pages";
 import { SystemState } from "../components";
 import NoDataImg from "../assets/no_data.png";
@@ -26,6 +27,14 @@ export const publicRoutes = [
   {
     path: "blog/:articleId/:slug?",
     element: <ArticleDetails />,
+  },
+  {
+    path: "reviews",
+    element: <ReviewsFeedbackPage />,
+  },
+  {
+    path: "feedback",
+    element: <ReviewsFeedbackPage />,
   },
   {
     path: "listing/:listingId/:slug?",
