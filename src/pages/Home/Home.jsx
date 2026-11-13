@@ -4,6 +4,7 @@ import {
   TestimonialSection,
   WhyDiscoverNeedMet,
   ArticleHomeSection,
+  PartnerNetworkSection,
 } from "./Sections";
 import {
   CategorySection,
@@ -182,7 +183,10 @@ function Home() {
       {/* 10. LOCAL GUIDES & ARTICLES */}
       <ArticleHomeSection />
 
-      {/* 11. TESTIMONIALS */}
+      {/* 11. OUR PARTNERS */}
+      <PartnerNetworkSection />
+
+      {/* 12. TESTIMONIALS */}
       <TestimonialSection />
 
       {/* 12. LIST YOUR BUSINESS CTA */}
